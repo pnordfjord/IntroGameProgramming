@@ -1,0 +1,10 @@
+﻿  RemoveVowels.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(1995,1): error C2446: '==': no conversion from 'const char [13]' to 'int'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(1995,31): message : There is no context in which this conversion is possible
+C:\Users\pkotl\Desktop\Courses\IntroGameProgramming\Week5Vowels\RemoveVowels.cpp(16): message : see reference to function template instantiation '_FwdIt std::remove<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,char[13]>(_FwdIt,const _FwdIt,const _Ty (&))' being compiled
+          with
+          [
+              _FwdIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Elem=char,
+              _Ty=char [13]
+          ]
