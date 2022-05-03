@@ -21,4 +21,4 @@ int main()
     cout << "sum: " << sum << endl << "average " << average << endl;
 
     return 0;
-}
+} 

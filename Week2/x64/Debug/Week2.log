@@ -1,0 +1,25 @@
+﻿  week2Assignment.cpp
+C:\Users\pkotl\Desktop\Courses\IntroGameProgramming\Week2\week2Assignment.cpp(17,15): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\numeric(34,26): warning C4244: '=': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\numeric(43): message : see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,
+              _Fn=std::plus<void>
+          ]
+C:\Users\pkotl\Desktop\Courses\IntroGameProgramming\Week2\week2Assignment.cpp(17): message : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,int>(const _InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>
+          ]
+  Week2.vcxproj -> C:\Users\pkotl\Desktop\Courses\IntroGameProgramming\x64\Debug\Week2.exe
